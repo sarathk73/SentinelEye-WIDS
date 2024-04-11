@@ -150,7 +150,7 @@ void connect(){
 
     notification["user"] = userToken;
 
-    notification["message"] = "Attention: Sentinel Eye has flagged a potential intrusion into your network. Note: Please disregard the initial alert as it is a system check message and does not indicate an actual intrusion";
+    notification["message"] = "Attention: Sentinel Eye has flagged a potential intrusion into your network. For immediate assistance, please consult our Telegram bot: https://t.me/seyewifibot. Note: Disregard the initial alert as it is a system check message and does not indicate an actual intrusion.";
 
     notification["title"] = "Sentinal Eye";
 
