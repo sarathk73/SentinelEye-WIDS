@@ -54,4 +54,5 @@ Upload the sketch to your ESP8266 module.
 -Please note: upon connecting the ESP8266 to USB for the first time, a notification will be sent to your smartphone. This is a false positive and should be disregarded.
 
 5.**Restart After Attack:**
+
 -In the event of the detection of a deauthentication attack, the ESP8266 is programmed to restart to ensure it reconnects to the Wi-Fi network and sends out an alert
