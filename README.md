@@ -137,17 +137,6 @@ For further assistance, please refer to the instructions within the respective c
 ## Contributing
 We welcome contributions and suggestions to improve the SentinelEye-WIDS project. Please feel free to submit issues and pull requests through the project's GitHub repository.
 
-### Versioning
-We use SemVer for versioning. For the versions available, see the tags on this repository.
-
-### Authors
-
-- Sarath K - Initial work - [sarathk73](https://github.com/sarathk73)
-
-### License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Troubleshooting
 If you experience any issues while setting up or operating the SentinelEye-WIDS, please refer to the troubleshooting guide below:
 - If the ESP8266 fails to connect to Wi-Fi, make sure you have entered the correct credentials and that your Wi-Fi network is operational.
@@ -168,6 +157,9 @@ For support queries or to suggest new features, please file an issue on the GitH
 
 ## Contact Information
 For assistance or to provide feedback, reach out to us at [amssarath@gmail.com](mailto:amssarath@gmail.com).
+
+### Versioning
+We use SemVer for versioning. For the versions available, see the tags on this repository.
 
 ### Authors
 
