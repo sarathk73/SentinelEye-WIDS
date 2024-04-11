@@ -68,6 +68,45 @@ Upload the sketch to your ESP8266 module.
 
 -In the event of the detection of a deauthentication attack, the ESP8266 is programmed to restart to ensure it reconnects to the Wi-Fi network and sends out an alert
 
+### Telegram Bot Setup
+
+Set up the Telegram bot to interact with users to provide information and alerts:
+
+1. **Bot Creation:**
+   
+-Create a new bot via the BotFather on Telegram and obtain the API token.
+
+3. **Script Configuration:**
+   
+-Replace the placeholder BOT_TOKEN in the telegram_bot.py script with your bot's API token.
+
+```python
+     BOT_TOKEN = 'Your Bot API Token'
+```
+Set your bot's web link appropriately.
+
+```python
+     YOUR_BOT_LINK = 'https://t.me/YourBotUsername'
+```
+4. **Dependencies Installation:**
+
+-Ensure you have Python installed on your system.
+-Install the pyTelegramBotAPI library using pip:
+```bash
+     pip install pyTelegramBotAPI
+```
+5. **Running the Bot:**
+
+Run the bot script in your environment:
+```bash
+     python telegram_bot.py
+```
+The bot should now be live and responding to commands.
+
+6. **Customizing Commands:**
+
+Edit the bot's responses and commands within the script to fit your needs.
+
 ## Configuration
 
 For configuration details, please refer to the comments within the script itself, which provide specific pointers on setting various parameters such as LED pin, Baud rate, scan time per channel, and packet rates.
