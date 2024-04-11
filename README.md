@@ -59,10 +59,10 @@ Upload the sketch to your ESP8266 module.
 
    - Ensure the Pushover root CA certificate is included in the certificates directory and properly referenced in the script.
 
-4.**Operational Behaviour:**
+4. **Operational Behaviour:**
 
-  - After an attack is no longer recognized or has stopped, the ESP8266 will send a notification to your smartphone.
-  - Please note: upon connecting the ESP8266 to USB for the first time, a notification will be sent to your smartphone. This is a false positive and should be disregarded.
+   - After an attack is no longer recognized or has stopped, the ESP8266 will send a notification to your smartphone.
+   - Please note: upon connecting the ESP8266 to USB for the first time, a notification will be sent to your smartphone. This is a false positive and should be disregarded.
 
 5.**Restart After Attack:**
 
