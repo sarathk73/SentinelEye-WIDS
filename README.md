@@ -144,6 +144,14 @@ We use SemVer for versioning. For the versions available, see the tags on this r
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## Troubleshooting
+If you experience any issues while setting up or operating the SentinelEye-WIDS, please refer to the troubleshooting guide below:
+- If the ESP8266 fails to connect to Wi-Fi, make sure you have entered the correct credentials and that your Wi-Fi network is operational.
+- In case of failed Pushover notifications, verify your API and User tokens.
+
+## Security Disclaimer
+While SentinelEye-WIDS is designed to enhance the security of wireless networks, it does not guarantee complete protection against all types of Wi-Fi attacks. Users are encouraged to employ multiple layers of security and to keep all software up-to-date.
+
 ---
 
 Thank you for choosing SentinelEye-WIDS to secure your wireless network environment.
