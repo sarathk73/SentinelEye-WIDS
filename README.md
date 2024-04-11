@@ -110,3 +110,12 @@ Edit the bot's responses and commands within the script to fit your needs.
 ## Configuration
 
 For configuration details, please refer to the comments within the script itself, which provide specific pointers on setting various parameters such as LED pin, Baud rate, scan time per channel, and packet rates.
+
+## Usage
+
+After following the installation and setup steps, your system will:
+- Monitor for deauthentication packets signaling a possible attack.
+- Illuminate an LED or perform other actions as defined in the `intrusion_detection.ino` when an attack is detected.
+- Use the Telegram bot to inform users about potential security threats and offer advice on how to act accordingly.
+- Ensure all communications for alerts are securely sent through Pushover with the provided certificate.
+
