@@ -119,3 +119,23 @@ After following the installation and setup steps, your system will:
 - Use the Telegram bot to inform users about potential security threats and offer advice on how to act accordingly.
 - Ensure all communications for alerts are securely sent through Pushover with the provided certificate.
 
+For further assistance, please refer to the instructions within the respective component directory.
+
+## Contributing
+We welcome contributions and suggestions to improve the SentinelEye-WIDS project. Please feel free to submit issues and pull requests through the project's GitHub repository.
+
+### Versioning
+We use SemVer for versioning. For the versions available, see the tags on this repository.
+
+### Authors
+
+- Sarath K - Initial work - [sarathk73](https://github.com/sarathk73)
+
+### License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Thank you for choosing SentinelEye-WIDS to secure your wireless network environment.
+
