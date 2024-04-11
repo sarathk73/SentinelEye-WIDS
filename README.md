@@ -57,6 +57,6 @@ Upload the sketch to your ESP8266 module.
 
 -In the event of the detection of a deauthentication attack, the ESP8266 is programmed to restart to ensure it reconnects to the Wi-Fi network and sends out an alert
 
-### Configuration
+## Configuration
 
 For configuration details, please refer to the comments within the script itself, which provide specific pointers on setting various parameters such as LED pin, Baud rate, scan time per channel, and packet rates.
