@@ -7,11 +7,11 @@ The 'Sentinel Eye' system vigilantly monitors wireless network environments to d
 ```
 SentinelEye-WIDS
     /esp8266_intrusion_detection
-        - intrusion_detection.ino    // ESP8266 Arduino script for detecting deauthentication and sending alerts
+        - intrusion_detection.ino    
     /telegram_bot
-        - telegram_bot.py            // Python script for the Telegram bot
+        - telegram_bot.py            
     /certificates
-        - pushover_root_ca.pem       // Certificate file
+        - pushover_root_ca.pem       
     /README.md
 ```
 
