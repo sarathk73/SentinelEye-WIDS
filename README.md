@@ -4,6 +4,13 @@ The 'Sentinel Eye' system vigilantly monitors wireless network environments to d
 
 ![Sentinel eye](/assets/seye.jpeg)
 
+## Prerequisites
+Before you begin, ensure you have met the following requirements:
+- An ESP8266 microcontroller.
+- Arduino IDE installed on your computer.
+- The latest version of Python if you're using the telegram_bot.
+- Basic understanding of microcontroller programming and Python scripting.
+
 ## Project Structure
 
 ```
