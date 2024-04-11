@@ -152,6 +152,16 @@ If you experience any issues while setting up or operating the SentinelEye-WIDS,
 ## Security Disclaimer
 While SentinelEye-WIDS is designed to enhance the security of wireless networks, it does not guarantee complete protection against all types of Wi-Fi attacks. Users are encouraged to employ multiple layers of security and to keep all software up-to-date.
 
+## FAQ
+**Q: Can I use SentinelEye-WIDS with any Wi-Fi network?**
+A: SentinelEye-WIDS is compatible with networks that the ESP8266 supports. For specific network requirements, refer to the ESP8266 documentation.
+
+**Q: What kind of attacks can SentinelEye-WIDS detect?**
+A: The system is designed to detect deauthentication attacks by monitoring suspicious packet patterns often associated with such intrusions.
+
+## Support and New Features
+For support queries or to suggest new features, please file an issue on the GitHub repository, and we will get back to you as soon as possible.
+
 ---
 
 Thank you for choosing SentinelEye-WIDS to secure your wireless network environment.
