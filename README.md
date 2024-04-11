@@ -2,7 +2,18 @@
 
 The 'Sentinel Eye' system vigilantly monitors wireless network environments to detect any signs of intrusion, such as unsolicited deauthentication attempts. Upon detecting potential threats, it swiftly alerts network clients with a notification bearing essential details.
 
-## Contents
+## Project Structure
+
+```
+SentinelEye-WIDS
+    /esp8266_intrusion_detection
+        - intrusion_detection.ino    // ESP8266 Arduino script for detecting deauthentication and sending alerts
+    /telegram_bot
+        - telegram_bot.py            // Python script for the Telegram bot
+    /certificates
+        - pushover_root_ca.pem       // Certificate file
+    /README.md
+```
 
 - `esp8266_intrusion_detection`: This directory contains the Arduino script that is uploaded to the ESP8266 microcontroller. It continuously monitors the Wi-Fi environment and detects any deauthentication packets, which could signify an attack.
 
