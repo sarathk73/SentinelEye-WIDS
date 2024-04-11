@@ -45,7 +45,7 @@ The ESP8266 module can detect and alert you to potential deauthentication attack
 Upload the sketch to your ESP8266 module.
 
 3. **Setting Up Certificates:**
-4. 
+
 -Ensure the Pushover root CA certificate is included in the certificates directory and properly referenced in the script.
 
 4.**Operational Behaviour:**
