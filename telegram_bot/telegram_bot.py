@@ -59,9 +59,9 @@ def common_attacks(message):
 
 
 
+
 @bot.message_handler(commands=['immediate_help'])
 def immediate_help(message):
-    
     security_measures = (
         "🚨 Immediate Steps to Take If You Suspect a Wi-Fi Attack:\n"
         "1️⃣ **Disconnect**: Disconnect from your Wi-Fi network immediately.\n"
@@ -70,10 +70,24 @@ def immediate_help(message):
         "4️⃣ **Change Passwords**: Change the Wi-Fi password, as well as the admin credentials for the router.\n"
         "5️⃣ **Reconnect Devices**: Reconnect your devices one by one, ensuring they are not compromised.\n"
         "6️⃣ **Monitor Network**: Use network monitoring tools to watch for unusual activity.\n"
-        "7️⃣ **Consult Expert**: If the issue persists, consider consulting with a cybersecurity expert.\n\n"
+        "7️⃣ **Consult Expert**: If the issue persists, or you have concerns, you can contact me directly by responding to this message with your questions or concerns.\n\n"
         "Follow the steps carefully, and ensure your network's security is reinstated."
     )
-    bot.send_message(message.chat.id, security_measures, parse_mode='Markdown')
+    msg = bot.send_message(message.chat.id, security_measures, parse_mode='Markdown')
+    bot.register_next_step_handler(msg, immediate_help_response)
+
+def immediate_help_response(message):
+    your_user_id = '1087802820'
+    try:
+        bot.forward_message(your_user_id, message.chat.id, message.message_id)
+        
+        thank_you_message = "Your message has been received. I will get back to you as soon as possible."
+        bot.send_message(message.chat.id, thank_you_message)
+        
+    except Exception as e:
+        error_message = "An error occurred while sending your message. Please try again later."
+        bot.send_message(message.chat.id, error_message)
+        print(e)  
 
 @bot.message_handler(commands=['security_tips'])
 def send_security_tips(message):
