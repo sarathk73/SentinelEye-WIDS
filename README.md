@@ -166,7 +166,17 @@ A: The system is designed to detect deauthentication attacks by monitoring suspi
 ## Support and New Features
 For support queries or to suggest new features, please file an issue on the GitHub repository, and we will get back to you as soon as possible.
 
+## Contact Information
+For assistance or to provide feedback, reach out to us at [amssarath@gmail.com](mailto:amssarath@gmail.com).
+
+### Authors
+
+- Sarath K - Initial work - [sarathk73](https://github.com/sarathk73)
+
+### License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ---
 
-Thank you for choosing SentinelEye-WIDS to secure your wireless network environment.
-
+Thank you for choosing SentinelEye-WIDS. Your feedback helps us improve and provide a more secure networking experience
