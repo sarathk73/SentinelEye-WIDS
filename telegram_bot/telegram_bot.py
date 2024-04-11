@@ -91,15 +91,22 @@ def send_security_tips(message):
     )
     bot.reply_to(message, security_tips, parse_mode='Markdown')
 
-@bot.message_handler(commands=['feedback'])
-def process_feedback(message):
-    msg = bot.send_message(message.chat.id, "Please type your feedback and send it to us. Thank you for helping us improve!")
-    
-    bot.register_next_step_handler(msg, receive_feedback)
-
 def receive_feedback(message):
-    thank_you_message = "Thank you for your feedback! We're constantly working to improve your experience."
-    bot.send_message(message.chat.id, thank_you_message)
+    your_user_id = '1087802820'  
+    try:
+       
+        bot.forward_message(your_user_id, message.chat.id, message.message_id)
+        
+       
+        thank_you_message = "Thank you for your feedback! We're constantly working to improve your experience."
+        bot.send_message(message.chat.id, thank_you_message)
+        
+    except Exception as e:
+       
+        error_message = "An error occurred while sending your feedback. Please try again later."
+        bot.send_message(message.chat.id, error_message)
+        print(e) 
+
 
 
 bot.infinity_polling()
