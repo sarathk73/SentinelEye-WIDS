@@ -61,12 +61,12 @@ Upload the sketch to your ESP8266 module.
 
 4.**Operational Behaviour:**
 
-      - After an attack is no longer recognized or has stopped, the ESP8266 will send a notification to your smartphone.
-      - Please note: upon connecting the ESP8266 to USB for the first time, a notification will be sent to your smartphone. This is a false positive and should be disregarded.
+   - After an attack is no longer recognized or has stopped, the ESP8266 will send a notification to your smartphone.
+   - Please note: upon connecting the ESP8266 to USB for the first time, a notification will be sent to your smartphone. This is a false positive and should be disregarded.
 
 5.**Restart After Attack:**
 
-    -In the event of the detection of a deauthentication attack, the ESP8266 is programmed to restart to ensure it reconnects to the Wi-Fi network and sends out an alert
+   - In the event of the detection of a deauthentication attack, the ESP8266 is programmed to restart to ensure it reconnects to the Wi-Fi network and sends out an alert
 
 ### Telegram Bot Setup
 
@@ -74,11 +74,11 @@ Set up the Telegram bot to interact with users to provide information and alerts
 
 1. **Bot Creation:**
    
--Create a new bot via the BotFather on Telegram and obtain the API token.
+  - Create a new bot via the BotFather on Telegram and obtain the API token.
 
 3. **Script Configuration:**
    
--Replace the placeholder BOT_TOKEN in the telegram_bot.py script with your bot's API token.
+  - Replace the placeholder BOT_TOKEN in the telegram_bot.py script with your bot's API token.
 
 ```python
      BOT_TOKEN = 'Your Bot API Token'
@@ -90,8 +90,8 @@ Set your bot's web link appropriately.
 ```
 4. **Dependencies Installation:**
 
--Ensure you have Python installed on your system.
--Install the pyTelegramBotAPI library using pip:
+  - Ensure you have Python installed on your system.
+  - Install the pyTelegramBotAPI library using pip:
 ```bash
      pip install pyTelegramBotAPI
 ```
