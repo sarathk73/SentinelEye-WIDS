@@ -24,3 +24,34 @@ The 'Sentinel Eye' system vigilantly monitors wireless network environments to d
 - Detailed guidance on immediate steps to take upon a Wi-Fi attack
 - Information on common Wi-Fi attacks, prevention tips, and how to respond
 - An interactive and user-friendly interface to enhance user awareness
+
+## Installation
+### ESP8266 Intrusion Detection Setup
+The ESP8266 module can detect and alert you to potential deauthentication attacks in real-time by using a cloud service like Pushover, which is free for the first 30 days. Follow the steps below to set it up:
+
+1. **Pushover Account Setup:**
+   - Create a Pushover account and obtain your User and API tokens.
+     This process is not covered here, but a detailed setup guide is available at [Pushover's documentation page](https://pushover.net/faq).
+
+2. **Loading the Sketch:**
+   - Open Arduino IDE and copy the code provided above into a new sketch.
+   - Insert the correct values for your Wi-Fi credentials, Pushover User Token, and API Key into the sketch.
+```cpp
+     const char* ssid = "Your Wifi Name";
+     const char* password = "Your Wifi Password";
+     const char* apiToken = "Your Pushover API Token";
+     const char* userToken = "Your Pushover User Token";
+```
+Upload the sketch to your ESP8266 module.
+
+3. **Setting Up Certificates:**
+4. 
+-Ensure the Pushover root CA certificate is included in the certificates directory and properly referenced in the script.
+
+4.**Operational Behaviour:**
+
+-After an attack is no longer recognized or has stopped, the ESP8266 will send a notification to your smartphone.
+-Please note: upon connecting the ESP8266 to USB for the first time, a notification will be sent to your smartphone. This is a false positive and should be disregarded.
+
+5.**Restart After Attack:**
+-In the event of the detection of a deauthentication attack, the ESP8266 is programmed to restart to ensure it reconnects to the Wi-Fi network and sends out an alert
