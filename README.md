@@ -45,6 +45,10 @@ SentinelEye-WIDS
 - Information on common Wi-Fi attacks, prevention tips, and how to respond
 - An interactive and user-friendly interface to enhance user awareness
 
+## Getting Started
+1. Gather all the required components listed in the prerequisites section.
+2. Follow the detailed installation instructions to set up the hardware and software components.
+
 ## Installation
 ### ESP8266 Intrusion Detection Setup
 The ESP8266 module can detect and alert you to potential deauthentication attacks in real-time by using a cloud service like Pushover, which is free for the first 30 days. Follow the steps below to set it up:
