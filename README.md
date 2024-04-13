@@ -32,6 +32,13 @@ SentinelEye-WIDS
 
 ## Features
 
+- Attack Tools : Includes handshake capture, brute forcing, and
+WPS attacking.
+- Detection Methods : Monitor packet rates, alert users, and use
+Arduino.
+- Cloud Integration : Utilizes cloud-based services for real-time
+attack detection.
+
 ### ESP8266 Intrusion Detection
 
 - Real-time monitoring of Wi-Fi channels for deauthentication packets
