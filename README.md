@@ -7,15 +7,15 @@ The 'Sentinel Eye' system vigilantly monitors wireless network environments to d
 ## Table of Contents
 - [Features](#features)
 - [Prerequisites](#prerequisites)
-- [Installation Instructions](#installation-instructions)
-- [Usage Guide](#usage-guide)
+- [Installation Instructions](#installation)
+- [Usage Guide](#usage)
 - [Configuration](#configuration)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
-- [Disclaimer](#disclaimer)
+- [Disclaimer](#Securitydisclaimer)
 - [Authors and Acknowledgments](#authors-and-acknowledgments)
 - [License](#license)
-- 
+
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
 - An ESP8266 microcontroller.
