@@ -13,7 +13,7 @@ The 'Sentinel Eye' system vigilantly monitors wireless network environments to d
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
 - [Disclaimer](#Security-disclaimer)
-- [Authors and Acknowledgments](#authors-and-acknowledgments)
+- [Authors and Acknowledgments](#authors)
 - [License](#license)
 
 ## Prerequisites
