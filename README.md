@@ -2,7 +2,7 @@
 
 The 'Sentinel Eye' system vigilantly monitors wireless network environments to detect any signs of intrusion, such as unsolicited deauthentication attempts. Upon detecting potential threats, it swiftly alerts network clients with a notification bearing essential details.
 
-![Sentinel eye](/assets/seye.jpeg)
+![Sentinel eye](/assets/seye1.jpg)
 
 ## Table of Contents
 - [Features](#features)
