@@ -45,15 +45,15 @@ def common_attacks(message):
     attacks_message = "Here are some common Wi-Fi attacks along with preventative measures and what to do if you believe you've been attacked:\n\n"
 
     
-    attacks_message += "📡 *Deauthentication Attack:*\n_Prevent:_ Enable MAC address filtering.\n_If attacked:_ Reconnect and consider using a VPN.\n\n"
+    attacks_message += "📡 *Deauthentication Attack:*\nAttacker floods a WiFi network with deauthentication frames, disconnecting devices from the network and disrupting their ability to communicate.\n_Prevent:_ Enable MAC address filtering.\n_If attacked:_ Reconnect and consider using a VPN.\n\n"
 
-    attacks_message += "👹 *Evil Twin Attack:*\n_Prevent:_ Use a VPN and connect only to Wi-Fi networks with WPA2 or WPA3 security.\n_If attacked:_ Forget the network and inform the network administrator.\n\n"
-
-
-    attacks_message += "🔍 *Packet Sniffing:*\n_Prevent:_ Use encrypted connections (HTTPS, VPNs).\n_If attacked:_ Change any compromised passwords and monitor accounts for suspicious activity.\n\n"
+    attacks_message += "👹 *Evil Twin Attack:*\nSetting up a rogue WiFi access point with a name similar to a legitimate one, tricking users into connecting to it and potentially exposing their sensitive information to the attacker.\n_Prevent:_ Use a VPN and connect only to Wi-Fi networks with WPA2 or WPA3 security.\n_If attacked:_ Forget the network and inform the network administrator.\n\n"
 
 
-    attacks_message += "🔐 *KRACK Attack:*\n_Prevent:_ Regularly update your devices to patch vulnerabilities.\n_If attacked:_ Disconnect from Wi-Fi and update your device.\n\n"
+    attacks_message += "🔍 *Packet Sniffing:*\nIntercepting and logging network traffic passing through a computer network, allowing attackers to capture sensitive information.\n_Prevent:_ Use encrypted connections (HTTPS, VPNs).\n_If attacked:_ Change any compromised passwords and monitor accounts for suspicious activity.\n\n"
+
+
+    attacks_message += "🔐 *KRACK Attack:*\nKRACK (Key Reinstallation Attack) is a security vulnerability in the WPA2 protocol that allows attackers to intercept and decrypt Wi-Fi traffic.\n_Prevent:_ Regularly update your devices to patch vulnerabilities.\n_If attacked:_ Disconnect from Wi-Fi and update your device.\n\n"
 
     bot.send_message(message.chat.id, attacks_message, parse_mode='Markdown')
 
