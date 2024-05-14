@@ -183,6 +183,9 @@ We use SemVer for versioning. For the versions available, see the tags on this r
 ### Authors
 
 - Sarath K - Initial work - [sarathk73](https://github.com/sarathk73)
+- Sudev K - [sudevkallatt](https://github.com/sudevkallatt)
+- Akash T K - [akash-tk](https://github.com/akash-tk)
+- S V Aswin - [Aswin10401](https://github.com/Aswin10401)
 
 ### License
 
