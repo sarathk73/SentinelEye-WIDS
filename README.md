@@ -171,6 +171,12 @@ A: SentinelEye-WIDS is compatible with networks that the ESP8266 supports. For s
 **Q: What kind of attacks can SentinelEye-WIDS detect?**
 A: The system is designed to detect deauthentication attacks by monitoring suspicious packet patterns often associated with such intrusions.
 
+**Q: How does the Pushover API integration work?**
+A: When a potential intrusion is detected, SentinelEye-WIDS sends an alert via the Pushover API to notify you in real-time through your mobile device.
+
+**Q: How can I set up the Telegram bot for SentinelEye-WIDS?**
+A: The setup involves creating a bot on Telegram, obtaining the bot token, and configuring the bot token in the SentinelEye-WIDS system settings. Detailed instructions can be found in the setup documentation.
+
 ## Support and New Features
 For support queries or to suggest new features, please file an issue on the GitHub repository, and we will get back to you as soon as possible.
 
