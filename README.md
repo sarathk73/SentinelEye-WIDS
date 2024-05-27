@@ -181,8 +181,8 @@ A: When a potential intrusion is detected, SentinelEye-WIDS sends an alert via t
 
 A: The setup involves creating a bot on Telegram, obtaining the bot token, and configuring the bot token in the SentinelEye-WIDS system settings. Detailed instructions can be found in the setup documentation.
 
-## Support and New Features
-For support queries or to suggest new features, please file an issue on the GitHub repository, and we will get back to you as soon as possible.
+## Need Help or Have a Feature Request?
+We're here to help! If you have any support queries or suggestions for new features, please file an issue on our GitHub repository. We'll get back to you as soon as possible.
 
 ## Contact Information
 For assistance or to provide feedback, reach out to us at [amssarath@gmail.com](mailto:amssarath@gmail.com).
