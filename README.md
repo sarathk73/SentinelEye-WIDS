@@ -161,8 +161,8 @@ If you experience any issues while setting up or operating the SentinelEye-WIDS,
 - If the ESP8266 fails to connect to Wi-Fi, make sure you have entered the correct credentials and that your Wi-Fi network is operational.
 - In case of failed Pushover notifications, verify your API and User tokens.
 
-## Security Disclaimer
-While SentinelEye-WIDS is designed to enhance the security of wireless networks, it does not guarantee complete protection against all types of Wi-Fi attacks. Users are encouraged to employ multiple layers of security and to keep all software up-to-date.
+## Security Notice
+SentinelEye-WIDS significantly enhances the security of your wireless networks, but no solution can offer absolute protection against all Wi-Fi attacks. For optimal safety, we recommend using multiple layers of security and keeping all software up-to-date.
 
 ## FAQ
 **Q: Can I use SentinelEye-WIDS with any Wi-Fi network?**
