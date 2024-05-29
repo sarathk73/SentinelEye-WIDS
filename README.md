@@ -156,10 +156,23 @@ For further assistance, please refer to the instructions within the respective c
 ## Contributing
 We welcome contributions and suggestions to improve the SentinelEye-WIDS project. Please feel free to submit issues and pull requests through the project's GitHub repository.
 
-## Troubleshooting
-If you experience any issues while setting up or operating the SentinelEye-WIDS, please refer to the troubleshooting guide below:
-- If the ESP8266 fails to connect to Wi-Fi, make sure you have entered the correct credentials and that your Wi-Fi network is operational.
-- In case of failed Pushover notifications, verify your API and User tokens.
+## Troubleshooting Guide for SentinelEye-WIDS
+
+If you encounter any issues while setting up or operating your SentinelEye-WIDS, please refer to the troubleshooting steps below for assistance.
+
+### Wi-Fi Connectivity Issues
+- **Problem**: ESP8266 fails to connect to Wi-Fi.
+- **Solutions**:
+  - **Check Credentials**: Ensure that the Wi-Fi SSID and password entered are correct.
+  - **Network Status**: Verify that your Wi-Fi network is active and operational.
+
+### Pushover Notification Issues
+- **Problem**: Pushover notifications are not being received.
+- **Solutions**:
+  - **API and User Tokens**: Confirm that you have correctly entered your Pushover API and User tokens.
+  - **Account Status**: Check that your Pushover account is in good standing and that there are no issues with the Pushover service.
+
+For further assistance, please refer to the user manual or contact our support team.
 
 ## Security Notice
 SentinelEye-WIDS significantly enhances the security of your wireless networks, but no solution can offer absolute protection against all Wi-Fi attacks. For optimal safety, we recommend using multiple layers of security and keeping all software up-to-date.
